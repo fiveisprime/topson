@@ -1,0 +1,32 @@
+{
+  "name": "topson",
+  "version": "0.0.0",
+  "description": "topson ======",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fiveisprime/topson.git"
+  },
+  "keywords": [
+    "top",
+    "json"
+  ],
+  "author": "Matt Hernandez <matt@modulus.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fiveisprime/topson/issues"
+  },
+  "homepage": "https://github.com/fiveisprime/topson",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "istanbul": "^0.2.7",
+    "jshint": "^2.5.0",
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "tsv": "^0.2.0"
+  }
+}
