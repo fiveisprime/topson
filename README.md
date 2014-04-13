@@ -1,7 +1,8 @@
 topson [![Build Status](https://travis-ci.org/fiveisprime/topson.svg?branch=master)](https://travis-ci.org/fiveisprime/topson)
 ======
 
-Get `top` data in JSON format. Currently only works on OSX.
+Get `top` data in JSON format. Currently only works on OSX and Linux (tested on
+Ubuntu).
 
 # Usage
 
