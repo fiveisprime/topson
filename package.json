@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/fiveisprime/topson",
   "devDependencies": {
-    "chai": "~1.9.1",
-    "istanbul": "~0.2.7",
-    "jshint": "~2.5.0",
-    "mocha": "~1.18.2"
+    "istanbul": "0.3.7",
+    "jshint": "2.6.3",
+    "mocha": "2.2.1",
+    "proxyquire": "1.4.0",
+    "should": "5.2.0",
+    "sinon": "1.13.0"
   },
   "dependencies": {}
 }

@@ -52,6 +52,7 @@
   "globals"       : {
     "afterEach"   : false,
     "beforeEach"  : false,
+    "before"      : false,
     "describe"    : false,
     "expect"      : false,
     "it"          : false
