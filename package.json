@@ -1,6 +1,6 @@
 {
   "name": "topson",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Get top data in JSON format.",
   "main": "index.js",
   "scripts": {
