@@ -1,5 +1,7 @@
-topson [![Build Status](https://travis-ci.org/fiveisprime/topson.svg?branch=master)](https://travis-ci.org/fiveisprime/topson)
+topson
 ======
+
+[![npm version](https://badge.fury.io/js/topson.svg)](http://badge.fury.io/js/topson) [![Test Coverage](https://codeclimate.com/github/fiveisprime/topson/badges/coverage.svg)](https://codeclimate.com/github/fiveisprime/topson) [![Build Status](https://travis-ci.org/fiveisprime/topson.svg?branch=master)](https://travis-ci.org/fiveisprime/topson)
 
 Get `top` data in JSON format. Currently only works on OSX and Linux (tested on
 Ubuntu).
@@ -22,7 +24,7 @@ topson(function (err, result) {
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Matt Hernandez
+Copyright (c) 2015 Matt Hernandez
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
