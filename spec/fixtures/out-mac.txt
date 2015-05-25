@@ -1,0 +1,40 @@
+Processes: 266 total, 2 running, 4 stuck, 260 sleeping, 1267 threads 
+2015/05/25 20:39:56
+Load Avg: 1.20, 1.45, 1.58 
+CPU usage: 7.31% user, 24.39% sys, 68.29% idle 
+SharedLibs: 12M resident, 11M data, 0B linkedit.
+MemRegions: 54246 total, 3555M resident, 87M private, 979M shared.
+PhysMem: 8107M used (1188M wired), 84M unused.
+VM: 658G vsize, 1063M framework vsize, 847774(0) swapins, 866046(0) swapouts.
+Networks: packets: 1363052/1655M in, 952151/142M out.
+Disks: 558270/12G read, 374538/11G written.
+
+PID    COMMAND          %CPU TIME     #TH   #WQ #PORTS MEM    PURG   CMPRS  PGRP  PPID  STATE    BOOSTS      %CPU_ME %CPU_OTHRS UID FAULTS    COW     MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW   POWER USER            #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+37615  top              0.0  00:00.10 1/1   0   13+    1536K+ 0B     0B     37615 36671 running  *0[1+]      0.00000 0.00000    0   2589+     93+     127923+   63961+    1187+     66608+    187+       0       1       0.0   root            N/A    N/A   N/A   N/A   N/A   N/A  
+37559  Google Chrome He 0.0  00:00.21 9     0   80+    12M+   0B     0B     465   465   sleeping *0[26+]     0.00000 0.00000    501 10745+    1430+   774+      325+      8120+     203381+   958+       6+      4       0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+37483  netbiosd         0.0  00:00.02 2     1   39+    1588K+ 0B     0B     37483 1     sleeping *0[1+]      0.00000 0.00000    222 1834+     156+    197+      70+       1199+     382+      442+       11+     24      0.0   _netbios        N/A    N/A   N/A   N/A   N/A   N/A  
+37415  com.apple.iCloud 0.0  00:00.10 2     0   45+    2064K+ 0B     0B     37415 1     sleeping *0[8+]      0.00000 0.00000    501 2398+     172+    550+      239+      2068+     909+      817+       12+     14      0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+37324  PressAndHold     0.0  00:00.41 3     0   135+   6756K+ 0B     0B     37324 1     sleeping *0[536+]    0.00000 0.00000    501 4669+     252+    6875+     2460+     21741+    9856+     8849+      1+      13      0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+36671  zsh              0.0  00:05.80 1     0   15+    5244K+ 0B     0B     36671 2932  sleeping *0[1+]      0.00000 0.00000    501 20514+    5924+   419+      205+      4120025+  309+      2332+      0       0       0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+36621  Google Chrome He 0.0  00:03.84 11    0   101+   90M+   0B     0B     465   465   sleeping *0[27+]     0.00000 0.00000    501 72195+    1458+   5295+     1549+     48054+    266087+   23163+     14905+  723     0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+36524  Vim              0.0  00:05.23 3     0   50+    14M+   0B     0B     36524 35448 sleeping *0[6+]      0.00000 0.00000    501 20123+    762+    349+      164+      175895+   595+      7458+      0       105     0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+Processes: 266 total, 2 running, 4 stuck, 260 sleeping, 1267 threads 
+2015/05/25 20:39:57
+Load Avg: 1.20, 1.45, 1.58 
+CPU usage: 2.13% user, 2.36% sys, 95.49% idle 
+SharedLibs: 12M resident, 11M data, 0B linkedit.
+MemRegions: 54246 total, 3555M resident, 87M private, 979M shared.
+PhysMem: 8108M used (1188M wired), 81M unused.
+VM: 658G vsize, 1063M framework vsize, 847774(0) swapins, 866046(0) swapouts.
+Networks: packets: 1363052/1655M in, 952152/142M out.
+Disks: 558272/12G read, 374538/11G written.
+
+PID    COMMAND          %CPU TIME     #TH   #WQ #PORTS MEM    PURG   CMPRS  PGRP  PPID  STATE    BOOSTS      %CPU_ME %CPU_OTHRS UID FAULTS    COW     MSGSENT   MSGRECV   SYSBSD    SYSMACH   CSW        PAGEINS IDLEW    POWER USER            #MREGS RPRVT VPRVT VSIZE KPRVT KSHRD
+37615  top              4.1  00:00.14 1/1   0   19+    2000K+ 0B     0B     37615 36671 running  *0[1]       0.13055 0.00000    0   4595+     98+     134836+   67420+    2288+     72719+    245+       0       2+       4.1   root            N/A    N/A   N/A   N/A   N/A   N/A  
+37559  Google Chrome He 0.0  00:00.21 9     0   80     12M    0B     0B     465   465   sleeping *0[26]      0.00000 0.00000    501 10745     1430    774       325       8120      203381    958        6       4        0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+37483  netbiosd         0.0  00:00.02 2     1   39     1588K  0B     0B     37483 1     sleeping *0[1]       0.00000 0.00000    222 1834      156     197       70        1199      382       442        11      24       0.0   _netbios        N/A    N/A   N/A   N/A   N/A   N/A  
+37415  com.apple.iCloud 0.0  00:00.10 2     0   45     2064K  0B     0B     37415 1     sleeping  0[8]       0.00000 0.00000    501 2398      172     550       239       2068      909       817        12      14       0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+37324  PressAndHold     0.0  00:00.41 3     0   135    6756K  0B     0B     37324 1     sleeping *0[536]     0.00000 0.00000    501 4669      252     6875      2460      21741     9856      8849       1       13       0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+36671  zsh              0.0  00:05.80 1     0   15     5244K  0B     0B     36671 2932  sleeping *0[1]       0.00000 0.00000    501 20514     5924    419       205       4120025   309       2332       0       0        0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+36621  Google Chrome He 0.0  00:03.84 11    0   101    90M    0B     0B     465   465   sleeping *0[27]      0.00000 0.00000    501 72195     1458    5295      1549      48054     266087    23163      14905   723      0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
+36524  Vim              0.0  00:05.23 3     0   50     14M    0B     0B     36524 35448 sleeping *0[6]       0.00000 0.00000    501 20123     762     349       164       175895    595       7458       0       105      0.0   peter           N/A    N/A   N/A   N/A   N/A   N/A  
