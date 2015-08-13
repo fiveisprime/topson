@@ -1,16 +1,23 @@
+var Lab = require('lab');
+var Code = require('code');
 var proxyquire = require('proxyquire');
 var sinon      = require('sinon');
 
 var procStub   = {};
-
 var topson = proxyquire('../lib/topson', { 'child_process': procStub });
+
+var lab = exports.lab = Lab.script();
+
+var describe = lab.describe;
+var it = lab.it;
+var expect = Code.expect;
 
 describe('topson', function () {
   it('should get top data', function (done) {
     procStub.exec = sinon.stub().yields(null, '{ "data": true }');
 
     topson(function (err, result) {
-      result.should.exist;
+      expect(result).to.exist;
       done();
     });
   });
@@ -19,7 +26,7 @@ describe('topson', function () {
     procStub.exec = sinon.stub().yields(new Error('failed'), null);
 
     topson(function (err) {
-      err.should.exist;
+      expect(err).to.exist();
       done();
     });
   });

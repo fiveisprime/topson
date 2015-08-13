@@ -4,7 +4,8 @@
   "description": "Get top data in JSON format.",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "lab --coverage --lint",
+    "gen-coverage": "lab --coverage --reporter lcov -o coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -21,11 +22,9 @@
   },
   "homepage": "https://github.com/fiveisprime/topson",
   "devDependencies": {
-    "istanbul": "0.3.7",
-    "jshint": "2.6.3",
-    "mocha": "2.2.1",
+    "code": "1.5.0",
+    "lab": "5.15.1",
     "proxyquire": "1.4.0",
-    "should": "5.2.0",
     "sinon": "1.13.0"
   },
   "dependencies": {}
